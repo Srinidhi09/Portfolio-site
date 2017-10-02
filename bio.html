@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bio</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<script type="text/javascript" src="code.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<style>
+
+.image{
+ width:220px;
+    margin: 5px;
+    height:100%;
+}
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #9e61c6;
+	}
+
+</style>
+<script>
+function home(){
+	window.location.href = "home.html";
+}
+function bio(){
+	window.location.href = "bio.html";
+	
+}
+function resume(){
+	window.location.href = "resume.html";
+	
+}
+function contact(){
+	window.location.href = "contact.html";
+	
+}
+
+</script>
+</head>
+<body style= "background-image: url(image.jpg)">
+<nav class="navbar navbar-inverse navbar-static-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">SRINIDHI KARNATI</a><br><br>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" onclick = "home()">Home</a></li>
+				<li><a href="#" onclick = "bio()">Bio</a></li>
+				<li><a href="#" onclick = "resume()">Resume</a></li>
+				<li><a href="#" onclick = "contact()">Contact</a></li>
+			</ul>
+		</div>
+		
+	</div>
+</nav>
+ 
+  <div id="tab2"><!-- page 2 -->
+<br><br>
+<div class="image" style="float: left;">
+		<nav>
+			<img src="https://s3-us-west-2.amazonaws.com/nidhifiles/nidhi.jpg"
+				alt="Profile image" width ="200" height = "200">
+		</nav>
+	</div>
+<br><br><h1 style="font-family:Georgia; font-size:250%; text-align:left;">SRINIDHI KARNATI</h1><br>
+<h3 style="font-family:Lucida Calligraphy; font-size:150%; text-align:left;">'All it takes is courage and hardwork!'</h3><br><br><br><br>
+<div id ="bio">
+	<p style = "font-family:Constantia; font-size:130%"> "The only place success comes after work is in the dictionary" </p>
+	<p style = "font-family:Constantia; font-size:130%"> With the notion that nothing in life comes for free, I have worked hard at my job in various academic,</p> 
+	<p style = "font-family:Constantia; font-size:130%"> as well as extra-curricular activities with sincerity and dedication.</p>
+	<p style = "font-family:Constantia; font-size:130%"> I strongly believe that gaining these experiences over the years has laid a strong base on which I can further build my future as a Web Developer</p>
+	</div>
+  </div><!-- /tab2 -->
+</body>
+</html>
